@@ -184,7 +184,8 @@ carllllllllx-portfolio/
 1. 响应式适配（移动端 + PC 端）
 2. 可访问性测试（键盘导航、屏幕阅读器）
 3. 性能优化（图片懒加载、动画性能）
-4. 准备项目答辩
+4. **部署到互联网** - 📖 查看 `guide/deployment-guide.md`
+5. 准备项目答辩
 
 ---
 
@@ -195,6 +196,7 @@ carllllllllx-portfolio/
 | 文档 | 用途 |
 |------|------|
 | `guide/teaching-plan.md` | 8 周教学计划（完整路线图） |
+| `guide/deployment-guide.md` | 部署指南（GitHub Pages/Netlify/Vercel） ⭐ 新增 |
 | `guide/best-practices-designSysterm.md` | Design System 深度教程 |
 | `docs/front-end-spec.md` | Design Tokens 标准示例 |
 | `docs/architecture.md` | 技术架构参考 |
