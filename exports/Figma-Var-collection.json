@@ -1,0 +1,1725 @@
+{
+    "version": "1.0.0",
+    "id": "VariableCollectionId:TBD:1",
+    "name": "1930s Rubber Hose",
+    "modes": {
+      "modeId:1:1": "Light",
+      "modeId:1:2": "Dark"
+    },
+    "variableIds": [
+      "VariableID:TBD:color-black",
+      "VariableID:TBD:color-primary",
+      "VariableID:TBD:color-white",
+      "VariableID:TBD:gray-900",
+      "VariableID:TBD:gray-800",
+      "VariableID:TBD:gray-700",
+      "VariableID:TBD:gray-500",
+      "VariableID:TBD:gray-300",
+      "VariableID:TBD:gray-200",
+      "VariableID:TBD:gray-100",
+      "VariableID:TBD:color-accent",
+      "VariableID:TBD:color-accent-dark",
+      "VariableID:TBD:color-accent-light",
+      "VariableID:TBD:color-focus-outline",
+      "VariableID:TBD:opacity-disabled",
+      "VariableID:TBD:color-overlay-background",
+      "VariableID:TBD:color-inverse",
+      "VariableID:TBD:color-text-secondary",
+      "VariableID:TBD:color-text-disabled",
+      "VariableID:TBD:color-bg-secondary",
+      "VariableID:TBD:color-border-secondary",
+      "VariableID:TBD:focus-ring-width",
+      "VariableID:TBD:focus-ring-offset",
+      "VariableID:TBD:focus-ring-style",
+      "VariableID:TBD:affordance-stroke-width-active",
+      "VariableID:TBD:affordance-scale-active",
+      "VariableID:TBD:affordance-stroke-width-level-2",
+      "VariableID:TBD:affordance-stroke-inner",
+      "VariableID:TBD:affordance-stroke-outer",
+      "VariableID:TBD:font-display",
+      "VariableID:TBD:font-body",
+      "VariableID:TBD:motion-duration-short",
+      "VariableID:TBD:motion-duration-medium",
+      "VariableID:TBD:easing-rubber-hose",
+      "VariableID:TBD:motion-properties-performant",
+      "VariableID:TBD:spacing-1",
+      "VariableID:TBD:spacing-2",
+      "VariableID:TBD:spacing-3",
+      "VariableID:TBD:spacing-4",
+      "VariableID:TBD:spacing-5",
+      "VariableID:TBD:spacing-6",
+      "VariableID:TBD:grid-icon-base",
+      "VariableID:TBD:grid-icon-safe-margin",
+      "VariableID:TBD:stroke-width-base",
+      "VariableID:TBD:stroke-width-small",
+      "VariableID:TBD:stroke-width-large",
+      "VariableID:TBD:corner-radius-base",
+      "VariableID:TBD:corner-radius-medium",
+      "VariableID:TBD:corner-radius-large",
+      "VariableID:TBD:cap-join-style"
+    ],
+    "variables": [
+      {
+        "id": "VariableID:TBD:color-black",
+        "name": "color/black",
+        "description": "纯黑：粗描边、图标",
+        "type": "COLOR",
+        "valuesByMode": {
+          "modeId:1:1": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "modeId:1:2": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        },
+        "resolvedValuesByMode": {
+          "modeId:1:1": {
+            "resolvedValue": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 1
+            },
+            "alias": null
+          },
+          "modeId:1:2": {
+            "resolvedValue": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 1
+            },
+            "alias": null
+          }
+        },
+        "scopes": [
+          "ALL_SCOPES"
+        ],
+        "hiddenFromPublishing": false,
+        "codeSyntax": {}
+      },
+      {
+        "id": "VariableID:TBD:color-primary",
+        "name": "color/primary",
+        "description": "主黑：主要文本、标题 (WCAG AA ≥ 4.5:1)",
+        "type": "COLOR",
+        "valuesByMode": {
+          "modeId:1:1": {
+            "r": 0.125,
+            "g": 0.125,
+            "b": 0.125,
+            "a": 1
+          },
+          "modeId:1:2": {
+            "r": 0.125,
+            "g": 0.125,
+            "b": 0.125,
+            "a": 1
+          }
+        },
+        "resolvedValuesByMode": {
+          "modeId:1:1": {
+            "resolvedValue": {
+              "r": 0.125,
+              "g": 0.125,
+              "b": 0.125,
+              "a": 1
+            },
+            "alias": null
+          },
+          "modeId:1:2": {
+            "resolvedValue": {
+              "r": 0.125,
+              "g": 0.125,
+              "b": 0.125,
+              "a": 1
+            },
+            "alias": null
+          }
+        },
+        "scopes": [
+          "ALL_SCOPES"
+        ],
+        "hiddenFromPublishing": false,
+        "codeSyntax": {}
+      },
+      {
+        "id": "VariableID:TBD:color-white",
+        "name": "color/white",
+        "description": "纯白：背景、反白",
+        "type": "COLOR",
+        "valuesByMode": {
+          "modeId:1:1": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "modeId:1:2": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          }
+        },
+        "resolvedValuesByMode": {
+          "modeId:1:1": {
+            "resolvedValue": {
+              "r": 1,
+              "g": 1,
+              "b": 1,
+              "a": 1
+            },
+            "alias": null
+          },
+          "modeId:1:2": {
+            "resolvedValue": {
+              "r": 1,
+              "g": 1,
+              "b": 1,
+              "a": 1
+            },
+            "alias": null
+          }
+        },
+        "scopes": [
+          "ALL_SCOPES"
+        ],
+        "hiddenFromPublishing": false,
+        "codeSyntax": {}
+      },
+      {
+        "id": "VariableID:TBD:gray-900",
+        "name": "gray/900",
+        "description": "极深灰：重阴影、深色UI",
+        "type": "COLOR",
+        "valuesByMode": {
+          "modeId:1:1": {
+            "r": 0.102,
+            "g": 0.102,
+            "b": 0.102,
+            "a": 1
+          },
+          "modeId:1:2": {
+            "r": 0.102,
+            "g": 0.102,
+            "b": 0.102,
+            "a": 1
+          }
+        },
+        "resolvedValuesByMode": {
+          "modeId:1:1": {
+            "resolvedValue": {
+              "r": 0.102,
+              "g": 0.102,
+              "b": 0.102,
+              "a": 1
+            },
+            "alias": null
+          },
+          "modeId:1:2": {
+            "resolvedValue": {
+              "r": 0.102,
+              "g": 0.102,
+              "b": 0.102,
+              "a": 1
+            },
+            "alias": null
+          }
+        },
+        "scopes": [
+          "ALL_SCOPES"
+        ],
+        "hiddenFromPublishing": false,
+        "codeSyntax": {}
+      },
+      {
+        "id": "VariableID:TBD:gray-800",
+        "name": "gray/800",
+        "description": "深灰：次要文本",
+        "type": "COLOR",
+        "valuesByMode": {
+          "modeId:1:1": {
+            "r": 0.2,
+            "g": 0.2,
+            "b": 0.2,
+            "a": 1
+          },
+          "modeId:1:2": {
+            "r": 0.2,
+            "g": 0.2,
+            "b": 0.2,
+            "a": 1
+          }
+        },
+        "resolvedValuesByMode": {
+          "modeId:1:1": {
+            "resolvedValue": {
+              "r": 0.2,
+              "g": 0.2,
+              "b": 0.2,
+              "a": 1
+            },
+            "alias": null
+          },
+          "modeId:1:2": {
+            "resolvedValue": {
+              "r": 0.2,
+              "g": 0.2,
+              "b": 0.2,
+              "a": 1
+            },
+            "alias": null
+          }
+        },
+        "scopes": [
+          "ALL_SCOPES"
+        ],
+        "hiddenFromPublishing": false,
+        "codeSyntax": {}
+      },
+      {
+        "id": "VariableID:TBD:gray-700",
+        "name": "gray/700",
+        "description": "中深灰：边框、分隔",
+        "type": "COLOR",
+        "valuesByMode": {
+          "modeId:1:1": {
+            "r": 0.302,
+            "g": 0.302,
+            "b": 0.302,
+            "a": 1
+          },
+          "modeId:1:2": {
+            "r": 0.302,
+            "g": 0.302,
+            "b": 0.302,
+            "a": 1
+          }
+        },
+        "resolvedValuesByMode": {
+          "modeId:1:1": {
+            "resolvedValue": {
+              "r": 0.302,
+              "g": 0.302,
+              "b": 0.302,
+              "a": 1
+            },
+            "alias": null
+          },
+          "modeId:1:2": {
+            "resolvedValue": {
+              "r": 0.302,
+              "g": 0.302,
+              "b": 0.302,
+              "a": 1
+            },
+            "alias": null
+          }
+        },
+        "scopes": [
+          "ALL_SCOPES"
+        ],
+        "hiddenFromPublishing": false,
+        "codeSyntax": {}
+      },
+      {
+        "id": "VariableID:TBD:gray-500",
+        "name": "gray/500",
+        "description": "中灰：禁用状态",
+        "type": "COLOR",
+        "valuesByMode": {
+          "modeId:1:1": {
+            "r": 0.502,
+            "g": 0.502,
+            "b": 0.502,
+            "a": 1
+          },
+          "modeId:1:2": {
+            "r": 0.502,
+            "g": 0.502,
+            "b": 0.502,
+            "a": 1
+          }
+        },
+        "resolvedValuesByMode": {
+          "modeId:1:1": {
+            "resolvedValue": {
+              "r": 0.502,
+              "g": 0.502,
+              "b": 0.502,
+              "a": 1
+            },
+            "alias": null
+          },
+          "modeId:1:2": {
+            "resolvedValue": {
+              "r": 0.502,
+              "g": 0.502,
+              "b": 0.502,
+              "a": 1
+            },
+            "alias": null
+          }
+        },
+        "scopes": [
+          "ALL_SCOPES"
+        ],
+        "hiddenFromPublishing": false,
+        "codeSyntax": {}
+      },
+      {
+        "id": "VariableID:TBD:gray-300",
+        "name": "gray/300",
+        "description": "浅灰：分隔线、边框",
+        "type": "COLOR",
+        "valuesByMode": {
+          "modeId:1:1": {
+            "r": 0.702,
+            "g": 0.702,
+            "b": 0.702,
+            "a": 1
+          },
+          "modeId:1:2": {
+            "r": 0.702,
+            "g": 0.702,
+            "b": 0.702,
+            "a": 1
+          }
+        },
+        "resolvedValuesByMode": {
+          "modeId:1:1": {
+            "resolvedValue": {
+              "r": 0.702,
+              "g": 0.702,
+              "b": 0.702,
+              "a": 1
+            },
+            "alias": null
+          },
+          "modeId:1:2": {
+            "resolvedValue": {
+              "r": 0.702,
+              "g": 0.702,
+              "b": 0.702,
+              "a": 1
+            },
+            "alias": null
+          }
+        },
+        "scopes": [
+          "ALL_SCOPES"
+        ],
+        "hiddenFromPublishing": false,
+        "codeSyntax": {}
+      },
+      {
+        "id": "VariableID:TBD:gray-200",
+        "name": "gray/200",
+        "description": "极浅灰：微妙背景",
+        "type": "COLOR",
+        "valuesByMode": {
+          "modeId:1:1": {
+            "r": 0.8,
+            "g": 0.8,
+            "b": 0.8,
+            "a": 1
+          },
+          "modeId:1:2": {
+            "r": 0.8,
+            "g": 0.8,
+            "b": 0.8,
+            "a": 1
+          }
+        },
+        "resolvedValuesByMode": {
+          "modeId:1:1": {
+            "resolvedValue": {
+              "r": 0.8,
+              "g": 0.8,
+              "b": 0.8,
+              "a": 1
+            },
+            "alias": null
+          },
+          "modeId:1:2": {
+            "resolvedValue": {
+              "r": 0.8,
+              "g": 0.8,
+              "b": 0.8,
+              "a": 1
+            },
+            "alias": null
+          }
+        },
+        "scopes": [
+          "ALL_SCOPES"
+        ],
+        "hiddenFromPublishing": false,
+        "codeSyntax": {}
+      },
+      {
+        "id": "VariableID:TBD:gray-100",
+        "name": "gray/100",
+        "description": "最浅灰：卡片背景（替换过浅的#F8F8F8）",
+        "type": "COLOR",
+        "valuesByMode": {
+          "modeId:1:1": {
+            "r": 0.902,
+            "g": 0.902,
+            "b": 0.902,
+            "a": 1
+          },
+          "modeId:1:2": {
+            "r": 0.902,
+            "g": 0.902,
+            "b": 0.902,
+            "a": 1
+          }
+        },
+        "resolvedValuesByMode": {
+          "modeId:1:1": {
+            "resolvedValue": {
+              "r": 0.902,
+              "g": 0.902,
+              "b": 0.902,
+              "a": 1
+            },
+            "alias": null
+          },
+          "modeId:1:2": {
+            "resolvedValue": {
+              "r": 0.902,
+              "g": 0.902,
+              "b": 0.902,
+              "a": 1
+            },
+            "alias": null
+          }
+        },
+        "scopes": [
+          "ALL_SCOPES"
+        ],
+        "hiddenFromPublishing": false,
+        "codeSyntax": {}
+      },
+      {
+        "id": "VariableID:TBD:color-accent",
+        "name": "color/accent",
+        "description": "珊瑚红：CTA、价格标签、重点强调",
+        "type": "COLOR",
+        "valuesByMode": {
+          "modeId:1:1": {
+            "r": 1,
+            "g": 0.42,
+            "b": 0.42,
+            "a": 1
+          },
+          "modeId:1:2": {
+            "r": 1,
+            "g": 0.42,
+            "b": 0.42,
+            "a": 1
+          }
+        },
+        "resolvedValuesByMode": {
+          "modeId:1:1": {
+            "resolvedValue": {
+              "r": 1,
+              "g": 0.42,
+              "b": 0.42,
+              "a": 1
+            },
+            "alias": null
+          },
+          "modeId:1:2": {
+            "resolvedValue": {
+              "r": 1,
+              "g": 0.42,
+              "b": 0.42,
+              "a": 1
+            },
+            "alias": null
+          }
+        },
+        "scopes": [
+          "ALL_SCOPES"
+        ],
+        "hiddenFromPublishing": false,
+        "codeSyntax": {}
+      },
+      {
+        "id": "VariableID:TBD:color-accent-dark",
+        "name": "color/accent-dark",
+        "description": "深红：悬停状态",
+        "type": "COLOR",
+        "valuesByMode": {
+          "modeId:1:1": {
+            "r": 0.91,
+            "g": 0.333,
+            "b": 0.333,
+            "a": 1
+          },
+          "modeId:1:2": {
+            "r": 0.91,
+            "g": 0.333,
+            "b": 0.333,
+            "a": 1
+          }
+        },
+        "resolvedValuesByMode": {
+          "modeId:1:1": {
+            "resolvedValue": {
+              "r": 0.91,
+              "g": 0.333,
+              "b": 0.333,
+              "a": 1
+            },
+            "alias": null
+          },
+          "modeId:1:2": {
+            "resolvedValue": {
+              "r": 0.91,
+              "g": 0.333,
+              "b": 0.333,
+              "a": 1
+            },
+            "alias": null
+          }
+        },
+        "scopes": [
+          "ALL_SCOPES"
+        ],
+        "hiddenFromPublishing": false,
+        "codeSyntax": {}
+      },
+      {
+        "id": "VariableID:TBD:color-accent-light",
+        "name": "color/accent-light",
+        "description": "浅红：背景高亮",
+        "type": "COLOR",
+        "valuesByMode": {
+          "modeId:1:1": {
+            "r": 1,
+            "g": 0.6,
+            "b": 0.6,
+            "a": 1
+          },
+          "modeId:1:2": {
+            "r": 1,
+            "g": 0.6,
+            "b": 0.6,
+            "a": 1
+          }
+        },
+        "resolvedValuesByMode": {
+          "modeId:1:1": {
+            "resolvedValue": {
+              "r": 1,
+              "g": 0.6,
+              "b": 0.6,
+              "a": 1
+            },
+            "alias": null
+          },
+          "modeId:1:2": {
+            "resolvedValue": {
+              "r": 1,
+              "g": 0.6,
+              "b": 0.6,
+              "a": 1
+            },
+            "alias": null
+          }
+        },
+        "scopes": [
+          "ALL_SCOPES"
+        ],
+        "hiddenFromPublishing": false,
+        "codeSyntax": {}
+      },
+      {
+        "id": "VariableID:TBD:color-focus-outline",
+        "name": "color/focus-outline",
+        "description": "焦点环：WCAG标准蓝（保留无障碍）",
+        "type": "COLOR",
+        "valuesByMode": {
+          "modeId:1:1": {
+            "r": 0,
+            "g": 0.373,
+            "b": 0.8,
+            "a": 1
+          },
+          "modeId:1:2": {
+            "r": 0,
+            "g": 0.373,
+            "b": 0.8,
+            "a": 1
+          }
+        },
+        "resolvedValuesByMode": {
+          "modeId:1:1": {
+            "resolvedValue": {
+              "r": 0,
+              "g": 0.373,
+              "b": 0.8,
+              "a": 1
+            },
+            "alias": null
+          },
+          "modeId:1:2": {
+            "resolvedValue": {
+              "r": 0,
+              "g": 0.373,
+              "b": 0.8,
+              "a": 1
+            },
+            "alias": null
+          }
+        },
+        "scopes": [
+          "ALL_SCOPES"
+        ],
+        "hiddenFromPublishing": false,
+        "codeSyntax": {}
+      },
+      {
+        "id": "VariableID:TBD:opacity-disabled",
+        "name": "opacity/disabled",
+        "description": "禁用状态透明度",
+        "type": "FLOAT",
+        "valuesByMode": {
+          "modeId:1:1": 0.4,
+          "modeId:1:2": 0.4
+        },
+        "resolvedValuesByMode": {
+          "modeId:1:1": {
+            "resolvedValue": 0.4,
+            "alias": null
+          },
+          "modeId:1:2": {
+            "resolvedValue": 0.4,
+            "alias": null
+          }
+        },
+        "scopes": [
+          "OPACITY"
+        ],
+        "hiddenFromPublishing": false,
+        "codeSyntax": {}
+      },
+      {
+        "id": "VariableID:TBD:color-overlay-background",
+        "name": "color/overlay-background",
+        "description": "遮罩层背景",
+        "type": "COLOR",
+        "valuesByMode": {
+          "modeId:1:1": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.85
+          },
+          "modeId:1:2": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.85
+          }
+        },
+        "resolvedValuesByMode": {
+          "modeId:1:1": {
+            "resolvedValue": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 0.85
+            },
+            "alias": null
+          },
+          "modeId:1:2": {
+            "resolvedValue": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 0.85
+            },
+            "alias": null
+          }
+        },
+        "scopes": [
+          "ALL_SCOPES"
+        ],
+        "hiddenFromPublishing": false,
+        "codeSyntax": {}
+      },
+      {
+        "id": "VariableID:TBD:color-inverse",
+        "name": "color/inverse",
+        "description": "语义映射：反色",
+        "type": "COLOR",
+        "valuesByMode": {
+          "modeId:1:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:TBD:color-white"
+          },
+          "modeId:1:2": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:TBD:color-white"
+          }
+        },
+        "resolvedValuesByMode": {
+          "modeId:1:1": {
+            "resolvedValue": {
+              "r": 1,
+              "g": 1,
+              "b": 1,
+              "a": 1
+            },
+            "alias": "VariableID:TBD:color-white"
+          },
+          "modeId:1:2": {
+            "resolvedValue": {
+              "r": 1,
+              "g": 1,
+              "b": 1,
+              "a": 1
+            },
+            "alias": "VariableID:TBD:color-white"
+          }
+        },
+        "scopes": [
+          "ALL_SCOPES"
+        ],
+        "hiddenFromPublishing": false,
+        "codeSyntax": {}
+      },
+      {
+        "id": "VariableID:TBD:color-text-secondary",
+        "name": "color/text-secondary",
+        "description": "语义映射：次要文本",
+        "type": "COLOR",
+        "valuesByMode": {
+          "modeId:1:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:TBD:gray-800"
+          },
+          "modeId:1:2": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:TBD:gray-800"
+          }
+        },
+        "resolvedValuesByMode": {
+          "modeId:1:1": {
+            "resolvedValue": {
+              "r": 0.2,
+              "g": 0.2,
+              "b": 0.2,
+              "a": 1
+            },
+            "alias": "VariableID:TBD:gray-800"
+          },
+          "modeId:1:2": {
+            "resolvedValue": {
+              "r": 0.2,
+              "g": 0.2,
+              "b": 0.2,
+              "a": 1
+            },
+            "alias": "VariableID:TBD:gray-800"
+          }
+        },
+        "scopes": [
+          "ALL_SCOPES"
+        ],
+        "hiddenFromPublishing": false,
+        "codeSyntax": {}
+      },
+      {
+        "id": "VariableID:TBD:color-text-disabled",
+        "name": "color/text-disabled",
+        "description": "语义映射：禁用文本",
+        "type": "COLOR",
+        "valuesByMode": {
+          "modeId:1:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:TBD:gray-500"
+          },
+          "modeId:1:2": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:TBD:gray-500"
+          }
+        },
+        "resolvedValuesByMode": {
+          "modeId:1:1": {
+            "resolvedValue": {
+              "r": 0.502,
+              "g": 0.502,
+              "b": 0.502,
+              "a": 1
+            },
+            "alias": "VariableID:TBD:gray-500"
+          },
+          "modeId:1:2": {
+            "resolvedValue": {
+              "r": 0.502,
+              "g": 0.502,
+              "b": 0.502,
+              "a": 1
+            },
+            "alias": "VariableID:TBD:gray-500"
+          }
+        },
+        "scopes": [
+          "ALL_SCOPES"
+        ],
+        "hiddenFromPublishing": false,
+        "codeSyntax": {}
+      },
+      {
+        "id": "VariableID:TBD:color-bg-secondary",
+        "name": "color/bg-secondary",
+        "description": "语义映射：次要背景",
+        "type": "COLOR",
+        "valuesByMode": {
+          "modeId:1:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:TBD:gray-100"
+          },
+          "modeId:1:2": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:TBD:gray-100"
+          }
+        },
+        "resolvedValuesByMode": {
+          "modeId:1:1": {
+            "resolvedValue": {
+              "r": 0.902,
+              "g": 0.902,
+              "b": 0.902,
+              "a": 1
+            },
+            "alias": "VariableID:TBD:gray-100"
+          },
+          "modeId:1:2": {
+            "resolvedValue": {
+              "r": 0.902,
+              "g": 0.902,
+              "b": 0.902,
+              "a": 1
+            },
+            "alias": "VariableID:TBD:gray-100"
+          }
+        },
+        "scopes": [
+          "ALL_SCOPES"
+        ],
+        "hiddenFromPublishing": false,
+        "codeSyntax": {}
+      },
+      {
+        "id": "VariableID:TBD:color-border-secondary",
+        "name": "color/border-secondary",
+        "description": "语义映射：次要边框",
+        "type": "COLOR",
+        "valuesByMode": {
+          "modeId:1:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:TBD:gray-300"
+          },
+          "modeId:1:2": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:TBD:gray-300"
+          }
+        },
+        "resolvedValuesByMode": {
+          "modeId:1:1": {
+            "resolvedValue": {
+              "r": 0.702,
+              "g": 0.702,
+              "b": 0.702,
+              "a": 1
+            },
+            "alias": "VariableID:TBD:gray-300"
+          },
+          "modeId:1:2": {
+            "resolvedValue": {
+              "r": 0.702,
+              "g": 0.702,
+              "b": 0.702,
+              "a": 1
+            },
+            "alias": "VariableID:TBD:gray-300"
+          }
+        },
+        "scopes": [
+          "ALL_SCOPES"
+        ],
+        "hiddenFromPublishing": false,
+        "codeSyntax": {}
+      },
+      {
+        "id": "VariableID:TBD:focus-ring-width",
+        "name": "affordance/focus-ring-width",
+        "description": "焦点环宽度",
+        "type": "STRING",
+        "valuesByMode": {
+          "modeId:1:1": "2px",
+          "modeId:1:2": "2px"
+        },
+        "resolvedValuesByMode": {
+          "modeId:1:1": {
+            "resolvedValue": "2px",
+            "alias": null
+          },
+          "modeId:1:2": {
+            "resolvedValue": "2px",
+            "alias": null
+          }
+        },
+        "scopes": [
+          "STROKE_WEIGHT"
+        ],
+        "hiddenFromPublishing": false,
+        "codeSyntax": {}
+      },
+      {
+        "id": "VariableID:TBD:focus-ring-offset",
+        "name": "affordance/focus-ring-offset",
+        "description": "焦点环偏移",
+        "type": "STRING",
+        "valuesByMode": {
+          "modeId:1:1": "1px",
+          "modeId:1:2": "1px"
+        },
+        "resolvedValuesByMode": {
+          "modeId:1:1": {
+            "resolvedValue": "1px",
+            "alias": null
+          },
+          "modeId:1:2": {
+            "resolvedValue": "1px",
+            "alias": null
+          }
+        },
+        "scopes": [
+          "GAP"
+        ],
+        "hiddenFromPublishing": false,
+        "codeSyntax": {}
+      },
+      {
+        "id": "VariableID:TBD:focus-ring-style",
+        "name": "affordance/focus-ring-style",
+        "description": "焦点环样式 (CSS)",
+        "type": "STRING",
+        "valuesByMode": {
+          "modeId:1:1": "solid var(--color-focus-outline)",
+          "modeId:1:2": "solid var(--color-focus-outline)"
+        },
+        "resolvedValuesByMode": {
+          "modeId:1:1": {
+            "resolvedValue": "solid var(--color-focus-outline)",
+            "alias": null
+          },
+          "modeId:1:2": {
+            "resolvedValue": "solid var(--color-focus-outline)",
+            "alias": null
+          }
+        },
+        "scopes": [
+          "ALL_SCOPES"
+        ],
+        "hiddenFromPublishing": false,
+        "codeSyntax": {}
+      },
+      {
+        "id": "VariableID:TBD:affordance-stroke-width-active",
+        "name": "affordance/stroke-width-active",
+        "description": "按压状态描边增厚",
+        "type": "STRING",
+        "valuesByMode": {
+          "modeId:1:1": "3px",
+          "modeId:1:2": "3px"
+        },
+        "resolvedValuesByMode": {
+          "modeId:1:1": {
+            "resolvedValue": "3px",
+            "alias": null
+          },
+          "modeId:1:2": {
+            "resolvedValue": "3px",
+            "alias": null
+          }
+        },
+        "scopes": [
+          "STROKE_WEIGHT"
+        ],
+        "hiddenFromPublishing": false,
+        "codeSyntax": {}
+      },
+      {
+        "id": "VariableID:TBD:affordance-scale-active",
+        "name": "affordance/scale-active",
+        "description": "按压状态轻微内缩",
+        "type": "FLOAT",
+        "valuesByMode": {
+          "modeId:1:1": 0.97,
+          "modeId:1:2": 0.97
+        },
+        "resolvedValuesByMode": {
+          "modeId:1:1": {
+            "resolvedValue": 0.97,
+            "alias": null
+          },
+          "modeId:1:2": {
+            "resolvedValue": 0.97,
+            "alias": null
+          }
+        },
+        "scopes": [
+          "ALL_SCOPES"
+        ],
+        "hiddenFromPublishing": false,
+        "codeSyntax": {}
+      },
+      {
+        "id": "VariableID:TBD:affordance-stroke-width-level-2",
+        "name": "affordance/stroke-width-level-2",
+        "description": "层级2描边分层",
+        "type": "STRING",
+        "valuesByMode": {
+          "modeId:1:1": "2px",
+          "modeId:1:2": "2px"
+        },
+        "resolvedValuesByMode": {
+          "modeId:1:1": {
+            "resolvedValue": "2px",
+            "alias": null
+          },
+          "modeId:1:2": {
+            "resolvedValue": "2px",
+            "alias": null
+          }
+        },
+        "scopes": [
+          "STROKE_WEIGHT"
+        ],
+        "hiddenFromPublishing": false,
+        "codeSyntax": {}
+      },
+      {
+        "id": "VariableID:TBD:affordance-stroke-inner",
+        "name": "affordance/stroke-inner",
+        "description": "双重描边 (内)",
+        "type": "COLOR",
+        "valuesByMode": {
+          "modeId:1:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:TBD:color-inverse"
+          },
+          "modeId:1:2": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:TBD:color-inverse"
+          }
+        },
+        "resolvedValuesByMode": {
+          "modeId:1:1": {
+            "resolvedValue": {
+              "r": 1,
+              "g": 1,
+              "b": 1,
+              "a": 1
+            },
+            "alias": "VariableID:TBD:color-inverse"
+          },
+          "modeId:1:2": {
+            "resolvedValue": {
+              "r": 1,
+              "g": 1,
+              "b": 1,
+              "a": 1
+            },
+            "alias": "VariableID:TBD:color-inverse"
+          }
+        },
+        "scopes": [
+          "ALL_SCOPES"
+        ],
+        "hiddenFromPublishing": false,
+        "codeSyntax": {}
+      },
+      {
+        "id": "VariableID:TBD:affordance-stroke-outer",
+        "name": "affordance/stroke-outer",
+        "description": "双重描边 (外)",
+        "type": "COLOR",
+        "valuesByMode": {
+          "modeId:1:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:TBD:color-primary"
+          },
+          "modeId:1:2": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:TBD:color-primary"
+          }
+        },
+        "resolvedValuesByMode": {
+          "modeId:1:1": {
+            "resolvedValue": {
+              "r": 0.125,
+              "g": 0.125,
+              "b": 0.125,
+              "a": 1
+            },
+            "alias": "VariableID:TBD:color-primary"
+          },
+          "modeId:1:2": {
+            "resolvedValue": {
+              "r": 0.125,
+              "g": 0.125,
+              "b": 0.125,
+              "a": 1
+            },
+            "alias": "VariableID:TBD:color-primary"
+          }
+        },
+        "scopes": [
+          "ALL_SCOPES"
+        ],
+        "hiddenFromPublishing": false,
+        "codeSyntax": {}
+      },
+      {
+        "id": "VariableID:TBD:font-display",
+        "name": "font/display",
+        "description": "英文字体 (Fredoka)",
+        "type": "STRING",
+        "valuesByMode": {
+          "modeId:1:1": "'Fredoka', 'PingFang SC', 'Microsoft YaHei', 'Hiragino Sans GB', sans-serif",
+          "modeId:1:2": "'Fredoka', 'PingFang SC', 'Microsoft YaHei', 'Hiragino Sans GB', sans-serif"
+        },
+        "resolvedValuesByMode": {
+          "modeId:1:1": {
+            "resolvedValue": "'Fredoka', 'PingFang SC', 'Microsoft YaHei', 'Hiragino Sans GB', sans-serif",
+            "alias": null
+          },
+          "modeId:1:2": {
+            "resolvedValue": "'Fredoka', 'PingFang SC', 'Microsoft YaHei', 'Hiragino Sans GB', sans-serif",
+            "alias": null
+          }
+        },
+        "scopes": [
+          "TEXT_CONTENT"
+        ],
+        "hiddenFromPublishing": false,
+        "codeSyntax": {}
+      },
+      {
+        "id": "VariableID:TBD:font-body",
+        "name": "font/body",
+        "description": "英文字体 (Nunito)",
+        "type": "STRING",
+        "valuesByMode": {
+          "modeId:1:1": "'Nunito', -apple-system, 'PingFang SC', 'Microsoft YaHei', 'Hiragino Sans GB', sans-serif",
+          "modeId:1:2": "'Nunito', -apple-system, 'PingFang SC', 'Microsoft YaHei', 'Hiragino Sans GB', sans-serif"
+        },
+        "resolvedValuesByMode": {
+          "modeId:1:1": {
+            "resolvedValue": "'Nunito', -apple-system, 'PingFang SC', 'Microsoft YaHei', 'Hiragino Sans GB', sans-serif",
+            "alias": null
+          },
+          "modeId:1:2": {
+            "resolvedValue": "'Nunito', -apple-system, 'PingFang SC', 'Microsoft YaHei', 'Hiragino Sans GB', sans-serif",
+            "alias": null
+          }
+        },
+        "scopes": [
+          "TEXT_CONTENT"
+        ],
+        "hiddenFromPublishing": false,
+        "codeSyntax": {}
+      },
+      {
+        "id": "VariableID:TBD:motion-duration-short",
+        "name": "motion/duration-short",
+        "description": "基础时长: 120ms (轻微反馈)",
+        "type": "STRING",
+        "valuesByMode": {
+          "modeId:1:1": "120ms",
+          "modeId:1:2": "120ms"
+        },
+        "resolvedValuesByMode": {
+          "modeId:1:1": {
+            "resolvedValue": "120ms",
+            "alias": null
+          },
+          "modeId:1:2": {
+            "resolvedValue": "120ms",
+            "alias": null
+          }
+        },
+        "scopes": [
+          "TIME"
+        ],
+        "hiddenFromPublishing": false,
+        "codeSyntax": {}
+      },
+      {
+        "id": "VariableID:TBD:motion-duration-medium",
+        "name": "motion/duration-medium",
+        "description": "基础时长: 180ms (位移)",
+        "type": "STRING",
+        "valuesByMode": {
+          "modeId:1:1": "180ms",
+          "modeId:1:2": "180ms"
+        },
+        "resolvedValuesByMode": {
+          "modeId:1:1": {
+            "resolvedValue": "180ms",
+            "alias": null
+          },
+          "modeId:1:2": {
+            "resolvedValue": "180ms",
+            "alias": null
+          }
+        },
+        "scopes": [
+          "TIME"
+        ],
+        "hiddenFromPublishing": false,
+        "codeSyntax": {}
+      },
+      {
+        "id": "VariableID:TBD:easing-rubber-hose",
+        "name": "motion/easing-rubber-hose",
+        "description": "缓动: 核心缓动曲线",
+        "type": "STRING",
+        "valuesByMode": {
+          "modeId:1:1": "cubic-bezier(0.2, 0.8, 0.2, 1)",
+          "modeId:1:2": "cubic-bezier(0.2, 0.8, 0.2, 1)"
+        },
+        "resolvedValuesByMode": {
+          "modeId:1:1": {
+            "resolvedValue": "cubic-bezier(0.2, 0.8, 0.2, 1)",
+            "alias": null
+          },
+          "modeId:1:2": {
+            "resolvedValue": "cubic-bezier(0.2, 0.8, 0.2, 1)",
+            "alias": null
+          }
+        },
+        "scopes": [
+          "ALL_SCOPES"
+        ],
+        "hiddenFromPublishing": false,
+        "codeSyntax": {}
+      },
+      {
+        "id": "VariableID:TBD:motion-properties-performant",
+        "name": "motion/properties-performant",
+        "description": "性能白名单",
+        "type": "STRING",
+        "valuesByMode": {
+          "modeId:1:1": "transform, opacity",
+          "modeId:1:2": "transform, opacity"
+        },
+        "resolvedValuesByMode": {
+          "modeId:1:1": {
+            "resolvedValue": "transform, opacity",
+            "alias": null
+          },
+          "modeId:1:2": {
+            "resolvedValue": "transform, opacity",
+            "alias": null
+          }
+        },
+        "scopes": [
+          "ALL_SCOPES"
+        ],
+        "hiddenFromPublishing": false,
+        "codeSyntax": {}
+      },
+      {
+        "id": "VariableID:TBD:spacing-1",
+        "name": "spacing/1",
+        "description": "4px",
+        "type": "STRING",
+        "valuesByMode": {
+          "modeId:1:1": "4px",
+          "modeId:1:2": "4px"
+        },
+        "resolvedValuesByMode": {
+          "modeId:1:1": {
+            "resolvedValue": "4px",
+            "alias": null
+          },
+          "modeId:1:2": {
+            "resolvedValue": "4px",
+            "alias": null
+          }
+        },
+        "scopes": [
+          "GAP"
+        ],
+        "hiddenFromPublishing": false,
+        "codeSyntax": {}
+      },
+      {
+        "id": "VariableID:TBD:spacing-2",
+        "name": "spacing/2",
+        "description": "8px",
+        "type": "STRING",
+        "valuesByMode": {
+          "modeId:1:1": "8px",
+          "modeId:1:2": "8px"
+        },
+        "resolvedValuesByMode": {
+          "modeId:1:1": {
+            "resolvedValue": "8px",
+            "alias": null
+          },
+          "modeId:1:2": {
+            "resolvedValue": "8px",
+            "alias": null
+          }
+        },
+        "scopes": [
+          "GAP"
+        ],
+        "hiddenFromPublishing": false,
+        "codeSyntax": {}
+      },
+      {
+        "id": "VariableID:TBD:spacing-3",
+        "name": "spacing/3",
+        "description": "12px",
+        "type": "STRING",
+        "valuesByMode": {
+          "modeId:1:1": "12px",
+          "modeId:1:2": "12px"
+        },
+        "resolvedValuesByMode": {
+          "modeId:1:1": {
+            "resolvedValue": "12px",
+            "alias": null
+          },
+          "modeId:1:2": {
+            "resolvedValue": "12px",
+            "alias": null
+          }
+        },
+        "scopes": [
+          "GAP"
+        ],
+        "hiddenFromPublishing": false,
+        "codeSyntax": {}
+      },
+      {
+        "id": "VariableID:TBD:spacing-4",
+        "name": "spacing/4",
+        "description": "16px",
+        "type": "STRING",
+        "valuesByMode": {
+          "modeId:1:1": "16px",
+          "modeId:1:2": "16px"
+        },
+        "resolvedValuesByMode": {
+          "modeId:1:1": {
+            "resolvedValue": "16px",
+            "alias": null
+          },
+          "modeId:1:2": {
+            "resolvedValue": "16px",
+            "alias": null
+          }
+        },
+        "scopes": [
+          "GAP"
+        ],
+        "hiddenFromPublishing": false,
+        "codeSyntax": {}
+      },
+      {
+        "id": "VariableID:TBD:spacing-5",
+        "name": "spacing/5",
+        "description": "20px",
+        "type": "STRING",
+        "valuesByMode": {
+          "modeId:1:1": "20px",
+          "modeId:1:2": "20px"
+        },
+        "resolvedValuesByMode": {
+          "modeId:1:1": {
+            "resolvedValue": "20px",
+            "alias": null
+          },
+          "modeId:1:2": {
+            "resolvedValue": "20px",
+            "alias": null
+          }
+        },
+        "scopes": [
+          "GAP"
+        ],
+        "hiddenFromPublishing": false,
+        "codeSyntax": {}
+      },
+      {
+        "id": "VariableID:TBD:spacing-6",
+        "name": "spacing/6",
+        "description": "24px",
+        "type": "STRING",
+        "valuesByMode": {
+          "modeId:1:1": "24px",
+          "modeId:1:2": "24px"
+        },
+        "resolvedValuesByMode": {
+          "modeId:1:1": {
+            "resolvedValue": "24px",
+            "alias": null
+          },
+          "modeId:1:2": {
+            "resolvedValue": "24px",
+            "alias": null
+          }
+        },
+        "scopes": [
+          "GAP"
+        ],
+        "hiddenFromPublishing": false,
+        "codeSyntax": {}
+      },
+      {
+        "id": "VariableID:TBD:grid-icon-base",
+        "name": "grid/icon-base",
+        "description": "Icon Grid Base",
+        "type": "STRING",
+        "valuesByMode": {
+          "modeId:1:1": "24px",
+          "modeId:1:2": "24px"
+        },
+        "resolvedValuesByMode": {
+          "modeId:1:1": {
+            "resolvedValue": "24px",
+            "alias": null
+          },
+          "modeId:1:2": {
+            "resolvedValue": "24px",
+            "alias": null
+          }
+        },
+        "scopes": [
+          "WIDTH_HEIGHT"
+        ],
+        "hiddenFromPublishing": false,
+        "codeSyntax": {}
+      },
+      {
+        "id": "VariableID:TBD:grid-icon-safe-margin",
+        "name": "grid/icon-safe-margin",
+        "description": "Icon Grid Safe Margin",
+        "type": "STRING",
+        "valuesByMode": {
+          "modeId:1:1": "2px",
+          "modeId:1:2": "2px"
+        },
+        "resolvedValuesByMode": {
+          "modeId:1:1": {
+            "resolvedValue": "2px",
+            "alias": null
+          },
+          "modeId:1:2": {
+            "resolvedValue": "2px",
+            "alias": null
+          }
+        },
+        "scopes": [
+          "GAP"
+        ],
+        "hiddenFromPublishing": false,
+        "codeSyntax": {}
+      },
+      {
+        "id": "VariableID:TBD:stroke-width-base",
+        "name": "stroke-width/base",
+        "description": "基础笔画: 2px (24px+ 图标使用)",
+        "type": "STRING",
+        "valuesByMode": {
+          "modeId:1:1": "2px",
+          "modeId:1:2": "2px"
+        },
+        "resolvedValuesByMode": {
+          "modeId:1:1": {
+            "resolvedValue": "2px",
+            "alias": null
+          },
+          "modeId:1:2": {
+            "resolvedValue": "2px",
+            "alias": null
+          }
+        },
+        "scopes": [
+          "STROKE_WEIGHT"
+        ],
+        "hiddenFromPublishing": false,
+        "codeSyntax": {}
+      },
+      {
+        "id": "VariableID:TBD:stroke-width-small",
+        "name": "stroke-width/small",
+        "description": "基础笔画: 1.5px (16px 图标使用)",
+        "type": "STRING",
+        "valuesByMode": {
+          "modeId:1:1": "1.5px",
+          "modeId:1:2": "1.5px"
+        },
+        "resolvedValuesByMode": {
+          "modeId:1:1": {
+            "resolvedValue": "1.5px",
+            "alias": null
+          },
+          "modeId:1:2": {
+            "resolvedValue": "1.5px",
+            "alias": null
+          }
+        },
+        "scopes": [
+          "STROKE_WEIGHT"
+        ],
+        "hiddenFromPublishing": false,
+        "codeSyntax": {}
+      },
+      {
+        "id": "VariableID:TBD:stroke-width-large",
+        "name": "stroke-width/large",
+        "description": "基础笔画: 2.5px (32px+ 图标使用)",
+        "type": "STRING",
+        "valuesByMode": {
+          "modeId:1:1": "2.5px",
+          "modeId:1:2": "2.5px"
+        },
+        "resolvedValuesByMode": {
+          "modeId:1:1": {
+            "resolvedValue": "2.5px",
+            "alias": null
+          },
+          "modeId:1:2": {
+            "resolvedValue": "2.5px",
+            "alias": null
+          }
+        },
+        "scopes": [
+          "STROKE_WEIGHT"
+        ],
+        "hiddenFromPublishing": false,
+        "codeSyntax": {}
+      },
+      {
+        "id": "VariableID:TBD:corner-radius-base",
+        "name": "corner-radius/base",
+        "description": "橡皮管风格圆角: 8px (小元素)",
+        "type": "STRING",
+        "valuesByMode": {
+          "modeId:1:1": "8px",
+          "modeId:1:2": "8px"
+        },
+        "resolvedValuesByMode": {
+          "modeId:1:1": {
+            "resolvedValue": "8px",
+            "alias": null
+          },
+          "modeId:1:2": {
+            "resolvedValue": "8px",
+            "alias": null
+          }
+        },
+        "scopes": [
+          "CORNER_RADIUS"
+        ],
+        "hiddenFromPublishing": false,
+        "codeSyntax": {}
+      },
+      {
+        "id": "VariableID:TBD:corner-radius-medium",
+        "name": "corner-radius/medium",
+        "description": "橡皮管风格圆角: 12px (中等元素)",
+        "type": "STRING",
+        "valuesByMode": {
+          "modeId:1:1": "12px",
+          "modeId:1:2": "12px"
+        },
+        "resolvedValuesByMode": {
+          "modeId:1:1": {
+            "resolvedValue": "12px",
+            "alias": null
+          },
+          "modeId:1:2": {
+            "resolvedValue": "12px",
+            "alias": null
+          }
+        },
+        "scopes": [
+          "CORNER_RADIUS"
+        ],
+        "hiddenFromPublishing": false,
+        "codeSyntax": {}
+      },
+      {
+        "id": "VariableID:TBD:corner-radius-large",
+        "name": "corner-radius/large",
+        "description": "橡皮管风格圆角: 16px (大元素)",
+        "type": "STRING",
+        "valuesByMode": {
+          "modeId:1:1": "16px",
+          "modeId:1:2": "16px"
+        },
+        "resolvedValuesByMode": {
+          "modeId:1:1": {
+            "resolvedValue": "16px",
+            "alias": null
+          },
+          "modeId:1:2": {
+            "resolvedValue": "16px",
+            "alias": null
+          }
+        },
+        "scopes": [
+          "CORNER_RADIUS"
+        ],
+        "hiddenFromPublishing": false,
+        "codeSyntax": {}
+      },
+      {
+        "id": "VariableID:TBD:cap-join-style",
+        "name": "geometry/cap-join-style",
+        "description": "描边形态",
+        "type": "STRING",
+        "valuesByMode": {
+          "modeId:1:1": "round",
+          "modeId:1:2": "round"
+        },
+        "resolvedValuesByMode": {
+          "modeId:1:1": {
+            "resolvedValue": "round",
+            "alias": null
+          },
+          "modeId:1:2": {
+            "resolvedValue": "round",
+            "alias": null
+          }
+        },
+        "scopes": [
+          "ALL_SCOPES"
+        ],
+        "hiddenFromPublishing": false,
+        "codeSyntax": {}
+      }
+    ]
+  }
