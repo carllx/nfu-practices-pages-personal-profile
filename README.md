@@ -175,7 +175,7 @@ carllllllllx-portfolio/
 #### **阶段 3：实现网页代码（Week 7）**
 
 1. 将 Design Tokens 映射为 CSS Variables
-2. 实现 4 个 HTML 页面（使用 `data.js` 中的数据）
+2. 实现 4 个 HTML 页面（使用 `data.json` 中的数据）
 3. 编写 JavaScript 交互逻辑
 4. **关键规则：严禁硬编码样式值**（必须使用 CSS Variables）
 

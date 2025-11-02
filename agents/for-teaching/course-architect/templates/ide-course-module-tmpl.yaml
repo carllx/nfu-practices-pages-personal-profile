@@ -1,0 +1,177 @@
+# IDE Course Module Template
+
+
+# <!-- Powered by BMAD™ Core -->
+template:
+  id: ide-course-module-template-v1
+  name: IDE Course Module Definition
+  version: 1.0
+  output:
+    format: yaml # 或者 Markdown，取决于您希望如何存储和处理模块定义
+    filename: courses/modules/{{module_id}}.yaml # 示例路径
+    title: "IDE Course Module: {{module_title}}"
+
+# 定义模板的结构和预期填充的内容
+# 使用 {{placeholder}} 表示需要由 design-ide-learning-module 任务填充的值
+
+sections:
+  - id: metadata
+    title: Metadata # 模块元数据
+    fields:
+      - id: module_id
+        label: Module ID # 唯一标识符
+        type: string
+        required: true
+        instruction: "例如: python-functions-basics"
+      - id: module_title
+        label: Module Title # 用户可见标题
+        type: string
+        required: true
+        instruction: "例如: Python 函数基础"
+      - id: version
+        label: Version # 模块版本
+        type: string
+        default: "1.0.0"
+      - id: target_ide
+        label: Target IDE # 目标 IDE
+        type: enum
+        options: [VS Code, JetBrains, Other] # 可扩展
+        required: true
+      - id: prerequisites
+        label: Prerequisites # 前置要求
+        type: list
+        instruction: "需要的知识或已完成的模块列表"
+      - id: estimated_duration
+        label: Estimated Duration # 预计学习时间
+        type: string
+        instruction: "例如: 30-45 分钟"
+
+  - id: learning_objectives # 学习目标
+    title: Learning Objectives
+    type: list
+    required: true
+    instruction: "清晰、可衡量的学习目标列表 (SMART)"
+    item_template: "- {{objective_description}}"
+
+  - id: activities # 学习活动
+    title: Activities
+    type: list # 活动列表，按顺序排列
+    required: true
+    instruction: "定义模块中的学习活动序列"
+    item_template:
+      type: object
+      fields:
+        - id: activity_id
+          label: Activity ID # 活动唯一标识
+          type: string
+          required: true
+          instruction: "例如: define-simple-function"
+        - id: title
+          label: Activity Title # 活动标题
+          type: string
+        - id: type # 活动类型
+          label: Activity Type
+          type: enum
+          options: [Reading, CodeCompletion, Debugging, Testing, Refactoring, GitCommit, Quiz, Project] # 可扩展
+          required: true
+        - id: description # 活动描述/说明
+          label: Description
+          type: markdown # 使用 Markdown 支持格式化
+          required: true
+        - id: interaction_pattern # 交互模式
+          label: Interaction Pattern
+          type: object
+          instruction: "描述如何呈现指令、反馈、提示"
+          fields:
+            - id: instruction_delivery
+              label: Instruction Delivery
+              type: enum
+              options: [MarkdownFile, EditorComment, SidePanel, Notification]
+            - id: feedback_mechanism
+              label: Feedback Mechanism
+              type: enum
+              options: [Linter, TestResults, CodeAnalysis, BotComment, ManualReview]
+            - id: scaffolding_support
+              label: Scaffolding/Hint Support
+              type: enum
+              options: [CodeSnippets, DocLinks, StepByStepGuide, ContextualHint]
+        - id: assessment # 与此活动相关的评估
+          label: Assessment Link
+          type: object
+          instruction: "链接到评估策略中的具体评估点"
+          fields:
+            - id: assessment_id
+              label: Assessment ID
+              type: string
+            - id: success_criteria
+              label: Success Criteria
+              type: string # 例如: "所有单元测试通过"
+        - id: technical_setup # 技术设置
+          label: Technical Setup
+          type: object
+          instruction: "此活动所需的文件、代码模板、配置等"
+          fields:
+            - id: required_files
+              label: Required Files
+              type: list
+            - id: template_code
+              label: Template Code Path
+              type: string
+            - id: ide_config
+              label: IDE Configuration
+              type: string # 例如: "需要安装 Python 扩展"
+
+  - id: assessment_strategy # 整体评估策略
+    title: Assessment Strategy
+    type: list
+    instruction: "定义模块级别的评估方法"
+    item_template:
+      type: object
+      fields:
+        - id: assessment_id
+          label: Assessment ID
+          type: string
+          required: true
+        - id: type # 评估类型
+          label: Assessment Type
+          type: enum
+          options: [AutomatedTesting, CodeAnalysis, Quiz, ProjectSubmission, PeerReview]
+        - id: description # 评估描述
+          label: Description
+          type: string
+        - id: criteria # 评估标准
+          label: Criteria
+          type: markdown
+        - id: linked_objectives # 关联的学习目标
+          label: Linked Objectives
+          type: list
+
+  - id: technical_requirements # 模块的技术要求
+    title: Technical Requirements
+    fields:
+      - id: required_extensions
+        label: Required IDE Extensions # 需要的 IDE 扩展
+        type: list
+      - id: required_software
+        label: Required Software # 需要的外部软件 (例如: Python 解释器)
+        type: list
+      - id: project_structure # 期望的项目结构
+        label: Expected Project Structure
+        type: markdown # 可以用代码块描述
+
+  - id: telemetry # 遥测数据点
+    title: Telemetry Data Points
+    type: list
+    instruction: "列出为此模块定义的具体遥测事件"
+    item_template:
+      type: object
+      fields:
+        - id: event_name
+          label: Event Name
+          type: string # 例如: activity_completed
+        - id: description
+          label: Description
+          type: string # 描述事件意图
+        - id: data_fields
+          label: Data Fields
+          type: list # 包含的数据字段
